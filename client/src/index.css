@@ -12,8 +12,17 @@ code {
     monospace;
 }
 
+#header {
+  background-color: darkolivegreen;
+}
+
+#header h1{
+  color: white;
+}
+
 nav {
   display: inline;
+  background-color: darkolivegreen;
 }
 
 h2, h3 {

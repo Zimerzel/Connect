@@ -15,8 +15,18 @@ const appNavbar2 = () => {
                 </Nav.Link>
               </Nav>
               <Nav className='ml-auto'>
-                <Nav.Link as={Link} to='/why-connect'>
+                <Nav.Link as={Link} to='/about/why-connect'>
                   Why Connect?
+                </Nav.Link>
+              </Nav>
+              <Nav className='ml-auto'>
+                <Nav.Link as={Link} to='/about/Our-Team'>
+                  Our Team
+                </Nav.Link>
+              </Nav>
+              <Nav className='ml-auto'>
+                <Nav.Link as={Link} to='/about/Contact'>
+                  Contact
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

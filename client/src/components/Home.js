@@ -17,6 +17,7 @@ function Home () {
                  and putting it directly in your hands.
             </p>
             <br></br>
+            {/* events, meetup, build icons */}
             <h3>Why Signup?</h3>
             <br></br>
             <p>

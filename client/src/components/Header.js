@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 function Header() {
     return(
-        <div>
+        <div id="header">
             <div>
                 <h1>Connect</h1>
             </div>
