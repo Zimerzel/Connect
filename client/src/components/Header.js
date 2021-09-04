@@ -1,5 +1,5 @@
 import React from 'react'
-// import Nav from './Nav'
+import Nav from './Nav'
 
 function Header() {
     return(
@@ -8,7 +8,7 @@ function Header() {
                 <h1>Connect</h1>
             </div>
             <div>
-                {/* <Nav /> */}
+                <Nav />
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-const appNavbar = () => {
+const appNavbar2 = () => {
     return(
         <>
         <Navbar bg='dark' variant='dark' expand='lg' id="nav" >
@@ -10,13 +10,13 @@ const appNavbar = () => {
             <Navbar.Toggle aria-controls='navbar' />
             <Navbar.Collapse id='nav'>
               <Nav className='ml-auto'>
-                <Nav.Link as={Link} to='/'>
+                <Nav.Link as={Link} to='/about'>
                   Home
                 </Nav.Link>
               </Nav>
               <Nav className='ml-auto'>
-                <Nav.Link as={Link} to='/about'>
-                  About
+                <Nav.Link as={Link} to='/why-connect'>
+                  Why Connect?
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -26,4 +26,4 @@ const appNavbar = () => {
     );
 }
 
-export default appNavbar;
+export default appNavbar2;
