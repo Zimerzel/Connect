@@ -1,13 +1,13 @@
 import React from "react";
 import AboutNav from "./AboutNav";
 
-function Contact() {
+function Community() {
     return(
         <>
-        <h2>Contact</h2>
-        <AboutNav />
+            <h2>Our Community</h2>
+            <AboutNav/>
         </>
     )
 }
 
-export default Contact;
+export default Community;

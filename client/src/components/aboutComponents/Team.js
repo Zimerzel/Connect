@@ -1,11 +1,11 @@
 import React from "react";
-import Nav2 from "./Nav2"
+import AboutNav from "./AboutNav";
 
 function Team (){
     return(
         <>
-        <h1>Our Team</h1>
-        <Nav2 />
+        <h2>Our Team</h2>
+        <AboutNav />
         </>
     )
 }

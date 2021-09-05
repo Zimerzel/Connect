@@ -6,7 +6,9 @@ function Home () {
         <>
             <h2>Welcome!</h2>
             <br></br>
-                <img src={ForestImg} id="homeImg"/>
+            <div id="homeImg">
+                <img src={ForestImg} id="forestImg"/>
+            </div>
             <br></br>
             <h3>What is Connect?</h3>
             <br></br>

@@ -1,29 +1,39 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import {NavLink} from "react-router-dom";
 
-const appNavbar = () => {
-    return(
-        <>
-        <Navbar bg='dark' variant='dark' expand='lg' id="nav" >
-          <Container fluid>
-            <Navbar.Toggle aria-controls='navbar' />
-            <Navbar.Collapse id='nav'>
-              <Nav className='ml-auto'>
-                <Nav.Link as={Link} to='/'>
-                  Home
-                </Nav.Link>
-              </Nav>
-              <Nav className='ml-auto'>
-                <Nav.Link as={Link} to='/about'>
-                  About
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-        </>
-    );
+// import { Link } from 'react-router-dom';
+// import { Navbar, Nav, Container } from 'react-bootstrap';
+
+
+function Nav(props) {
+  return (
+    <div className="nav row" id="nav">
+        <NavLink to="/">Home </NavLink>
+        <NavLink to="/about">About </NavLink>
+        <NavLink to="/learn">Learn </NavLink>
+    </div>
+  );
 }
 
-export default appNavbar;
+
+// const appNavbar = () => {
+//     return(
+//         <>
+        
+//           {/* <div id="nav">
+//               <Nav>
+//                 <Nav.Link as={Link} to='/' id="nav">
+//                   Home
+//                 </Nav.Link>
+//               </Nav>
+//               <Nav>
+//                 <Nav.Link as={Link} to='/about' id="nav">
+//                   About
+//                 </Nav.Link>
+//               </Nav>
+//           </div> */}
+//         </>
+//     );
+// }
+
+export default Nav;

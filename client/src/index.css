@@ -14,16 +14,43 @@ code {
 
 #header {
   background-color: darkolivegreen;
+  padding-top:20px;
 }
 
 #header h1{
   color: white;
+  font-size: 40px;
+  padding-top:2vw;
+  padding-left: 1vw;
 }
 
-nav {
-  display: inline;
-  background-color: darkolivegreen;
+#medialink{
+  float: right;
+  padding: 10px;
 }
+
+#facebook, #twitter, #instagram {
+  padding-right: 10px;
+}
+
+/* nav {
+  display: inline;
+  font-size: large;
+  align-content: center;
+  margin: 7px 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  float: right;
+}
+
+nav a {
+  display: inline;
+  padding: 10px 15px;
+  font-weight: Medium;
+  text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  color: rgb(3, 3, 3);
+  font-size: 14px;
+  font-size: 1.55vw;
+} */
 
 h2, h3 {
   text-align: center;
@@ -39,5 +66,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 400px;
+}
+
+#forestImg{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
