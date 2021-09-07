@@ -4,6 +4,7 @@ import ForestImg from "../assets/images/forest-canopy.jpg"
 function Home () {
     return(
         <>
+            <br></br>
             <h2>Welcome!</h2>
             <br></br>
             <div id="homeImg">

@@ -12,11 +12,7 @@ function Footer() {
           | LinkedIn |
         </a>
         <a href="https://github.com/Zimerzel" target="_blank">| Github |</a>{" "}
-        <a href= "https://docdro.id/g8dL6kd" target="_blank" download>
-          | Download Resume
-        </a>
       </p>
-      <p id="emailtxt"> Zachary.imerzel@gmail.com</p>
     </div>
   );
 }

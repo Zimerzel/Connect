@@ -7,10 +7,12 @@ import './App.css';
 import Home from "./components/Home";
 import About from "./components/About";
 import Learn from "./components/Learn";
-//Sub components
+//About Tabs
 import Community from "./components/aboutComponents/Community";
-import Team from "./components/aboutComponents/Team";
 import Contact from "./components/aboutComponents/Contact";
+//Learn Tabs
+import Books from "./components/learnComponents/Books";
+import Videos from "./components/learnComponents/Videos"
 
 
 function App() {
@@ -21,10 +23,11 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
-        <Route exact path='/learn' component={Learn} />
         <Route exact path='/about/Our-Community' component={Community} />
-        <Route exact path='/about/Our-Team' component={Team} />
         <Route exact path='/about/Contact' component={Contact} />
+        <Route exact path='/learn' component={Learn} />
+        <Route exact path='/learn/books' component={Books} />
+        <Route exact path='/learn/videos' component={Videos} />
         <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
       </Switch>
       <Footer />

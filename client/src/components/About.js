@@ -1,15 +1,17 @@
 import React from "react";
 import AboutNav from "./aboutComponents/AboutNav"
+import { LoremIpsum } from 'react-lorem-ipsum';
 
 function About () {
     return(
         <>
+        <br></br>
         <h2>About</h2>
         <AboutNav />
         <br></br>
         <h3>Our Mission</h3>
         <br></br>
-        <p>Connect was created in 2016 by two college students tired of living to society's standards</p>
+        <p><LoremIpsum p={4} /></p>
         <br></br>
         </>
         // forest bathing

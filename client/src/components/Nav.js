@@ -1,5 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+// import { Navbar, Container, NavDropdown } from "react-bootstrap"
 
 // import { Link } from 'react-router-dom';
 // import { Navbar, Nav, Container } from 'react-bootstrap';
@@ -7,33 +8,35 @@ import {NavLink} from "react-router-dom";
 
 function Nav(props) {
   return (
+    // <Navbar variant="dark" bg="dark" expand="lg">
+    //   <Container fluid>
+    //     <Navbar.Toggle aria-controls="navbar-dark-example" />
+    //     <Navbar.Collapse id="navbar-dark-example">
+    //       <Nav>
+    //         <NavDropdown
+    //           id="nav-dropdown-dark-example"
+    //           title="Dropdown"
+    //           menuVariant="dark"
+    //         >
+    //           <NavDropdown.Item href="/home">home</NavDropdown.Item>
+    //           <NavDropdown.Item href="/about">about</NavDropdown.Item>
+    //           <NavDropdown.Item href="learn">Learn</NavDropdown.Item>
+    //         </NavDropdown>
+    //       </Nav>
+    //     </Navbar.Collapse>
+    //   </Container>
+    // </Navbar>
+
+
+
     <div className="nav row" id="nav">
         <NavLink to="/">Home </NavLink>
         <NavLink to="/about">About </NavLink>
         <NavLink to="/learn">Learn </NavLink>
     </div>
+
+    // Create a dropdown icon menu
   );
 }
-
-
-// const appNavbar = () => {
-//     return(
-//         <>
-        
-//           {/* <div id="nav">
-//               <Nav>
-//                 <Nav.Link as={Link} to='/' id="nav">
-//                   Home
-//                 </Nav.Link>
-//               </Nav>
-//               <Nav>
-//                 <Nav.Link as={Link} to='/about' id="nav">
-//                   About
-//                 </Nav.Link>
-//               </Nav>
-//           </div> */}
-//         </>
-//     );
-// }
 
 export default Nav;

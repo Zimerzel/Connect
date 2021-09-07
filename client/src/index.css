@@ -41,16 +41,20 @@ code {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   float: right;
 }
+*/
 
-nav a {
+#nav{
+  float:right;
+  display: inline;
+  margin-top: -30px;
+
+}
+
+#nav a {
   display: inline;
   padding: 10px 15px;
-  font-weight: Medium;
-  text-shadow: 0 0 10px rgb(0 0 0 / 50%);
-  color: rgb(3, 3, 3);
-  font-size: 14px;
-  font-size: 1.55vw;
-} */
+  color: rgb(0, 0, 0);
+}
 
 h2, h3 {
   text-align: center;
@@ -71,5 +75,19 @@ p {
 #forestImg{
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  border-radius: 20px;
+  width: 85%;
+}
+
+#staff {
+  align-items:center;
+  display: ;
+}
+
+#staff Img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 25%;
+  border-radius: 100px;
 }
