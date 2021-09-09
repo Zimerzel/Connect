@@ -19,9 +19,6 @@ import Books from "./components/learnComponents/Books";
 import Videos from "./components/learnComponents/Videos"
 
 //Icons
-import { ReactComponent as Arrow } from './icons/arrow.svg'
-import { ReactComponent as Bolt } from './icons/bolt.svg'
-import { ReactComponent as Chevron } from './icons/chevron.svg'
 import { ReactComponent as CaretIcon } from './icons/caret.svg'
 
 
@@ -34,9 +31,6 @@ function App() {
     <>
       {/* <Header /> */}
       <Navbar>
-         <NavItem icon={<Arrow />} />
-         <NavItem icon={<Bolt />} />
-        <NavItem icon={<Chevron />} />
         <NavItem icon={<CaretIcon />}>
             <DropdownMenu></DropdownMenu>
         </NavItem>
