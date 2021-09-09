@@ -10,8 +10,8 @@ function Community() {
     return(
         <>
             <h2>Our Community</h2>
-            <AboutNav/>
             <br></br>
+            <AboutNav/>
             <h3>Volunteers</h3>
             <br></br>
             <p><LoremIpsum p={1} /></p>

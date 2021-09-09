@@ -7,6 +7,7 @@ function Learn (){
         <>
             <br></br>
             <h2>Guide to all things connect</h2>
+            <br></br>
             <LearnNav />
             <br></br>
             <p><LoremIpsum p={3} /></p>

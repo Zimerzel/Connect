@@ -6,8 +6,8 @@ function Contact() {
     return(
         <>
         <h2>Contact</h2>
-        <AboutNav />
         <br></br>
+        <AboutNav />
         <h3>Best way to reach out</h3>
             <LoremIpsum p={1} />
         <br></br>

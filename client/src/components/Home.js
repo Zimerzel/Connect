@@ -1,5 +1,5 @@
 import React from "react";
-import ForestImg from "../assets/images/forest-canopy.jpg"
+import ForestImg from "../assets/images/canopy.jpg"
 
 function Home () {
     return(
@@ -8,7 +8,7 @@ function Home () {
             <h2>Welcome!</h2>
             <br></br>
             <div id="homeImg">
-                <img src={ForestImg} id="forestImg"/>
+                <img src={ForestImg} alt="tree canopy" id="forestImg"/>
             </div>
             <br></br>
             <h3>What is Connect?</h3>

@@ -7,6 +7,7 @@ function About () {
         <>
         <br></br>
         <h2>About</h2>
+        <br></br>
         <AboutNav />
         <br></br>
         <h3>Our Mission</h3>

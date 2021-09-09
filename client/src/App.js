@@ -1,9 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from "./components/Footer"
 import './App.css';
+import './index.css';
 //Main components
+import Navbar from "./components/Nav"
+import NavItem from "./components/NavItem";
+import DropdownMenu from "./components/NavDropdown";
 import Home from "./components/Home";
 import About from "./components/About";
 import Learn from "./components/Learn";
@@ -14,12 +18,30 @@ import Contact from "./components/aboutComponents/Contact";
 import Books from "./components/learnComponents/Books";
 import Videos from "./components/learnComponents/Videos"
 
+//Icons
+import { ReactComponent as Arrow } from './icons/arrow.svg'
+import { ReactComponent as Bolt } from './icons/bolt.svg'
+import { ReactComponent as Chevron } from './icons/chevron.svg'
+import { ReactComponent as CaretIcon } from './icons/caret.svg'
+
+
+
+
 
 function App() {
   return (
     <Router>
     <>
-      <Header />
+      {/* <Header /> */}
+      <Navbar>
+         <NavItem icon={<Arrow />} />
+         <NavItem icon={<Bolt />} />
+        <NavItem icon={<Chevron />} />
+        <NavItem icon={<CaretIcon />}>
+            <DropdownMenu></DropdownMenu>
+        </NavItem>
+      </Navbar>
+
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
@@ -36,5 +58,6 @@ function App() {
 
   );
 }
+
 
 export default App;
