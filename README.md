@@ -1,15 +1,10 @@
 # Connect
 
-<<<<<<< HEAD
-=======
 ![connect](https://user-images.githubusercontent.com/79726069/132906359-ba2265f8-3c37-4982-b20b-bb67a16ae21b.PNG)
 
 
 App to help bring people back to human.
 
-# Connect
-
->>>>>>> e991a963ad407ee621fc880cb98d8bbdf6511747
 ## User Story
 AS AN avid enviromental activist
 I WANT a singular site to emcompass all enviromental guides and information
@@ -47,7 +42,4 @@ Github : https://github.com/Zimerzel
 ## Helpful Links
 * Github Repo: https://github.com/Zimerzel/Connect
 * Hekou Deployment: 
-<<<<<<< HEAD
-=======
 
->>>>>>> e991a963ad407ee621fc880cb98d8bbdf6511747
