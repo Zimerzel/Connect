@@ -6,8 +6,8 @@ import './App.css';
 import './index.css';
 //Main components
 import Navbar from "./components/Nav"
-import NavItem from "./components/NavItem";
-import DropdownMenu from "./components/NavDropdown";
+// import NavItem from "./components/NavItem";
+// import DropdownMenu from "./components/NavDropdown";
 import Home from "./components/Home";
 import About from "./components/About";
 import Learn from "./components/Learn";

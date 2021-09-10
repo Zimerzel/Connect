@@ -1,5 +1,4 @@
 import React from "react";
-import AboutNav from "./aboutComponents/AboutNav"
 import { LoremIpsum } from 'react-lorem-ipsum';
 
 function About () {
@@ -8,7 +7,6 @@ function About () {
         <br></br>
         <h2>About</h2>
         <br></br>
-        <AboutNav />
         <br></br>
         <h3>Our Mission</h3>
         <br></br>

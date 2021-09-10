@@ -1,6 +1,6 @@
 import React from "react";
 import LoremIpsum from "react-lorem-ipsum";
-import LearnNav from "./LearnNav";
+
 
 
 function Books() {
@@ -9,7 +9,6 @@ function Books() {
         <br></br>
             <h2>Books</h2>
             <br></br>
-            <LearnNav />
 
         <br></br>
             <h3>Health</h3>

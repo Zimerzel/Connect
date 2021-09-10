@@ -1,6 +1,5 @@
 import React from "react";
 import LoremIpsum from "react-lorem-ipsum";
-import LearnNav from "./learnComponents/LearnNav"
 
 function Learn (){
     return(
@@ -8,7 +7,6 @@ function Learn (){
             <br></br>
             <h2>Guide to all things connect</h2>
             <br></br>
-            <LearnNav />
             <br></br>
             <p><LoremIpsum p={3} /></p>
             <p>

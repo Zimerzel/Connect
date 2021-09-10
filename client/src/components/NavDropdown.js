@@ -37,6 +37,7 @@ function DropdownMenu () {
                 classNames="menu-primary" 
                 onEnter={calcHeight}>
                 <div className="menu">
+                    {/* <DropdownItem leftIcon={<Arrow />} exit to current page/> */}
                     <DropdownItem
                         // leftIcon={<Caret />} make it a home icon
                     >

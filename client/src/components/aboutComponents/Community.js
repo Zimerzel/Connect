@@ -1,17 +1,13 @@
 import React from "react";
 import { LoremIpsum } from "react-lorem-ipsum";
-import AboutNav from "./AboutNav";
 import { Col, Row, Container } from "react-bootstrap"
-// import Container from 'react-bootstrap/Container'
-// import Col from 'react-bootstrap/Col'
-// import Row from 'react-bootstrap/Row'
+
 
 function Community() {
     return(
         <>
             <h2>Our Community</h2>
             <br></br>
-            <AboutNav/>
             <h3>Volunteers</h3>
             <br></br>
             <p><LoremIpsum p={1} /></p>
