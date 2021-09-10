@@ -8,7 +8,8 @@ App to help bring people back to human.
 ## User Story
 AS AN avid enviromental activist
 I WANT a singular site to emcompass all enviromental guides and information
-SO THAT I can easily navigate, learn and share information advocating for enviormental sustainability 
+SO THAT I can easily navigate, learn and share 
+information advocating for enviormental sustainability 
 
 ## Acceptence criteria
 
