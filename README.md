@@ -3,7 +3,7 @@
 ![connect](https://user-images.githubusercontent.com/79726069/132906359-ba2265f8-3c37-4982-b20b-bb67a16ae21b.PNG)
 
 
-App to help bring people back to human.
+App designed to help bring people back to human.
 
 ## User Story
 AS AN avid enviromental activist
