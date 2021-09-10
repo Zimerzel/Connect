@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import { ReactComponent as Chevron } from '../icons/chevron.svg'
-import { ReactComponent as Cog } from '../icons/cog.svg'
+import { ReactComponent as Caret } from '../icons/caret.svg'
+import { ReactComponent as Messenger } from '../icons/messenger.svg'
 import { CSSTransition } from "react-transition-group"
 import { ReactComponent as  Arrow} from '../icons/arrow.svg'
 
@@ -37,16 +37,21 @@ function DropdownMenu () {
                 classNames="menu-primary" 
                 onEnter={calcHeight}>
                 <div className="menu">
-                    {/* <DropdownItem>My profile</DropdownItem> */}
                     <DropdownItem
-                        leftIcon={<Cog />}
-                        goToMenu="about">
-                            About
+                        // leftIcon={<Caret />} make it a home icon
+                    >
+                        <a href="/">Home</a>
                     </DropdownItem>
                     <DropdownItem
-                        leftIcon={<Cog />}
+                        leftIcon={<Caret />}
+                        goToMenu="about">
+                            <a href="/about">About</a>
+                    </DropdownItem>
+                    <DropdownItem
+                        href ="/learn"
+                        leftIcon={<Caret />}
                         goToMenu="learn">
-                            Learn
+                            <a href="/learn">Learn</a>
                     </DropdownItem>
                 </div>
             </CSSTransition>
@@ -58,8 +63,14 @@ function DropdownMenu () {
                 onEnter={calcHeight}>
                 <div className="menu">
                     <DropdownItem leftIcon={<Arrow />} goToMenu="main" />
-                    <DropdownItem>Community</DropdownItem>
-                    <DropdownItem>Contact</DropdownItem>
+                    <DropdownItem>
+                       <a href="/about/community">Community</a>
+                    </DropdownItem>
+                    <DropdownItem
+                    leftIcon={<Messenger />}
+                    >
+                        <a href="/about/contact">Contact</a>
+                    </DropdownItem>
                 </div>
             </CSSTransition>
             <CSSTransition 
@@ -70,9 +81,15 @@ function DropdownMenu () {
                 onEnter={calcHeight}>
                 <div className="menu">
                     <DropdownItem leftIcon={<Arrow />} goToMenu="main" />
-                    <DropdownItem ><a href="/learn/books">Books</a></DropdownItem>
-                    <DropdownItem>Videos</DropdownItem>
-                    <DropdownItem>Articles</DropdownItem>
+                    <DropdownItem >
+                        <a href="/learn/books">Books</a>
+                    </DropdownItem>
+                    <DropdownItem>
+                        <a href="/learn/videos">Videos</a>
+                    </DropdownItem>
+                    <DropdownItem>
+                        Articles
+                    </DropdownItem>
                 </div>
             </CSSTransition>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Header from './components/Header';
+import Header from './components/Header';
 import Footer from "./components/Footer"
 import './App.css';
 import './index.css';
@@ -29,18 +29,18 @@ function App() {
   return (
     <Router>
     <>
-      {/* <Header /> */}
-      <Navbar>
+      <Header />
+      {/* <Navbar>
         <NavItem icon={<CaretIcon />}>
             <DropdownMenu></DropdownMenu>
         </NavItem>
-      </Navbar>
+      </Navbar> */}
 
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
-        <Route exact path='/about/Our-Community' component={Community} />
-        <Route exact path='/about/Contact' component={Contact} />
+        <Route exact path='/about/community' component={Community} />
+        <Route exact path='/about/contact' component={Contact} />
         <Route exact path='/learn' component={Learn} />
         <Route exact path='/learn/books' component={Books} />
         <Route exact path='/learn/videos' component={Videos} />

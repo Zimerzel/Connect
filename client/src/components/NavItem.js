@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { ReactComponent as BellIcon } from "./icons/bell.svg"
 
 function NavItem(props){
 
