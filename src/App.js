@@ -30,12 +30,6 @@ function App() {
     <Router>
     <>
       <Header />
-      {/* <Navbar>
-        <NavItem icon={<CaretIcon />}>
-            <DropdownMenu></DropdownMenu>
-        </NavItem>
-      </Navbar> */}
-
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
