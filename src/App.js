@@ -2,14 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from "./components/Footer"
-import './App.css';
 import './index.css';
 //Main components
-import Navbar from "./components/Nav"
-// import NavItem from "./components/NavItem";
-// import DropdownMenu from "./components/NavDropdown";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
+import Tiny from "./components/Tiny";
 import Learn from "./components/Learn";
 //About Tabs
 import Community from "./components/aboutComponents/Community";
@@ -19,7 +16,7 @@ import Books from "./components/learnComponents/Books";
 import Videos from "./components/learnComponents/Videos"
 
 //Icons
-import { ReactComponent as CaretIcon } from './icons/caret.svg'
+
 
 
 
@@ -30,10 +27,11 @@ function App() {
     <Router>
     <>
       <Header />
+      <Navbar fixed="top"/>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/about/community' component={Community} />
+        <Route exact path='/tiny' component={Tiny} />
+        <Route exact path='/community' component={Community} />
         <Route exact path='/about/contact' component={Contact} />
         <Route exact path='/learn' component={Learn} />
         <Route exact path='/learn/books' component={Books} />

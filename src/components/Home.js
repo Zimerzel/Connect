@@ -4,6 +4,7 @@ import ForestImg from "../assets/images/canopy.jpg"
 function Home () {
     return(
         <>
+        <div class="home">
             <br></br>
             <h2>Welcome!</h2>
             <br></br>
@@ -31,6 +32,7 @@ function Home () {
             <br></br>
 
             {/* testimonials */}
+        </div>
         </>
 
     )

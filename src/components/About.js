@@ -13,6 +13,7 @@ function About () {
         <p><LoremIpsum p={4} /></p>
         <br></br>
         </>
+    
         // forest bathing
         // great reads
     )
