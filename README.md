@@ -1,6 +1,7 @@
 # Connect
 
-![tiny2](https://user-images.githubusercontent.com/79726069/140162572-e7e382ed-1118-4131-afa8-e38908e948d1.PNG)
+
+![tiny3](https://user-images.githubusercontent.com/79726069/140162832-5c3a2758-8e4f-499f-a03a-474ca838ad38.PNG)
 
 
 
