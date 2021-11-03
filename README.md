@@ -1,6 +1,7 @@
 # Connect
 
-![connect](https://user-images.githubusercontent.com/79726069/132906359-ba2265f8-3c37-4982-b20b-bb67a16ae21b.PNG)
+![tiny2](https://user-images.githubusercontent.com/79726069/140162572-e7e382ed-1118-4131-afa8-e38908e948d1.PNG)
+
 
 
 An App designed to help bring people back to human.
