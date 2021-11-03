@@ -4,7 +4,7 @@
 
 
 
-An App designed to help bring people back to human.
+An App designed to help bring people back to human. (Currently Rebuilding Site Structure)
 
 ## User Story
 AS AN avid enviromental activist
