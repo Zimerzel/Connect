@@ -1,9 +1,11 @@
 # Connect
 
-![connect](https://user-images.githubusercontent.com/79726069/132906359-ba2265f8-3c37-4982-b20b-bb67a16ae21b.PNG)
+
+![tiny3](https://user-images.githubusercontent.com/79726069/140162832-5c3a2758-8e4f-499f-a03a-474ca838ad38.PNG)
 
 
-An App designed to help bring people back to human.
+
+An App designed to help bring people back to human. (Currently Rebuilding Site Structure)
 
 ## User Story
 AS AN avid enviromental activist
