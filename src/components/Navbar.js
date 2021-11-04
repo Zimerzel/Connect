@@ -7,7 +7,7 @@ export default class Nav extends React.Component {
         <nav id="categories-nav">
             <ul>
                 <li class="nav-cat-sustainlife" >
-                    <Link to ="/">
+                    <Link to ="/sustainable-life">
                         <div>
                             <img></img>
                         </div>

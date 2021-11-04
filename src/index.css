@@ -43,6 +43,16 @@ p {
   width:40px;
 }
 
+.footer{
+  background-color: rgb(32, 32, 32);
+  height: 50px;
+}
+
+.footer p, a{
+  color: white;
+  padding-top: 15px;
+}
+
 nav{
   background-color: rgb(255, 255, 255);
 }
@@ -144,6 +154,82 @@ code {
 .home h2{
   text-align: center;
 }
+
+.Life{
+  margin-top: 10vh;
+  padding-top: 10vh;
+  background-color: rgb(233, 232, 232);
+}
+
+#life-cards{
+  margin: 10px;
+}
+
+.card-title{
+  font-size: 18px;
+}
+
+#life-btn{
+  background-color: rgb(119, 117, 117);
+}
+
+#life-btn :hover, #life-cards:hover{
+  background-color: rgb(65, 63, 63);
+}
+
+#life-link{
+  margin-top: -20px;
+}
+
+.stay-home{
+  margin-top: 10vh;
+  padding-top: 5vh;
+  background-color: rgb(233, 232, 232);
+  text-align: center;
+  position: relative;
+}
+
+.stay-home h1{
+  border-bottom: solid black 1px;
+  font-family: Montserrat,sans-serif;
+  width: 85%;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 70px;
+}
+
+
+#stayHeader p{
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 19px;
+}
+
+
+#headerImg {
+position: relative;
+height: 100%;
+}
+
+#headerImg img{
+  width: 90vw;
+}
+
+#headerImg h2{
+  position: absolute;
+  left: 40vw;
+  top: 45%;
+  color: white;
+}
+
+
+
+
+
+
+
+
 
 .tiny-article{
   background-color: rgb(233, 232, 232);
