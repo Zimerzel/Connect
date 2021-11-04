@@ -1,60 +1,60 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
-const Navb = () =>{
+export default class Nav extends React.Component {
+    render(){
     return(
         <nav id="categories-nav">
             <ul>
                 <li class="nav-cat-sustainlife" >
-                    <a href="/">
+                    <Link to ="/">
                         <div>
                             <img></img>
                         </div>
                         Sustainable Life
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href= '/tiny'>
+                    <Link to ="/tiny">
                         <div>
                             {/* <img /> */}
                         </div>
                         Tiny Homes
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/community">
+                    <Link to="/community">
                         <div>
                             {/* <img /> */}
                         </div>
                         Community
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a>
+                    <Link to= "/">
                         <div>
                             {/* <img /> */}
                         </div>
                         Climate Change
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a>
+                    <Link to= "/">
                         <div>
                             {/* <img /> */}
                         </div>
                         Enviroment
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a>
+                    <Link to ="">
                         <div>
                             {/* <img /> */}
                         </div>
                         Renewable Energy
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </nav>
-    )
+    )}
 }
-
-export default Navb;
