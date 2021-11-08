@@ -8,8 +8,11 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Tiny from "./components/Tiny";
 import Learn from "./components/Learn";
+
+//Sustainable Life
 import SustainableLife from "./components/Sustainable-Life"
 import StayHome from "./components/sustainabilityComp/StayHome";
+import Consumption from "./components/sustainabilityComp/Consumption";
 //About Tabs
 import Community from "./components/aboutComponents/Community";
 import Contact from "./components/aboutComponents/Contact";
@@ -34,6 +37,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/sustainable-life' component={SustainableLife} />
         <Route exact path='/sustainable-life/stay-home' component={StayHome} />
+        <Route exact path='/sustainable-life/consumption' component={Consumption} />
         <Route exact path='/tiny' component={Tiny} />
         <Route exact path='/community' component={Community} />
         <Route exact path='/about/contact' component={Contact} />

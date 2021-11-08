@@ -64,10 +64,6 @@ nav ul li {
   padding: 0 1%;
   text-align: center;
   width: 14.2%;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -ms-transition: all .5s;
-  -moz-transition: all .5s; 
   margin-top: -10px;
 }
 
@@ -75,14 +71,10 @@ nav ul li a {
     color: #3e3e44;
     display: table-cell;
     vertical-align: middle;
-    transition: all .5s;
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
 }
 
 nav ul li a div {
@@ -90,25 +82,15 @@ nav ul li a div {
   margin: 0 auto;
   opacity: 0;
   width: 14px;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -ms-transition: all .5s;
-  -moz-transition: all .5s;
 }
 
-a {
-  background-color: transparent;
-}
 
-.nav-cat-sustainlife :active{
+.nav-cat-sustainlife a:active{
 background-color: green;
 opacity: 100;
+color: rgb(241, 241, 241);
 }
 
-.nav-cat-active a div {
-  height: auto;
-  opacity: 1;
-}
 
 /* nav:after {
   content: " ";
@@ -155,7 +137,7 @@ code {
   text-align: center;
 }
 
-.Life{
+.Life, .Consumption{
   margin-top: 10vh;
   padding-top: 10vh;
   background-color: rgb(233, 232, 232);
@@ -198,7 +180,6 @@ code {
   margin-left: 70px;
 }
 
-
 #stayHeader p{
   font-family: Montserrat,sans-serif;
   font-weight: 500;
@@ -206,13 +187,12 @@ code {
   font-size: 19px;
 }
 
-
 #headerImg {
 position: relative;
 height: 100%;
 }
 
-#headerImg img{
+#headerImg img, .Consumption img{
   width: 90vw;
 }
 
@@ -223,13 +203,48 @@ height: 100%;
   color: white;
 }
 
+.Consumption{
+  text-align: center;
+}
+
+#quote{
+  height: 200px;
+  width: 60vw;
+  margin-left: 20%;
+  border: rgb(226, 225, 225) solid 4px;
+  background-color: rgb(248, 246, 246);
+  position: relative;
+}
+
+#quote p{
+position: absolute;
+padding: 20px;
+bottom: 25px;
+font-family: Montserrat,sans-serif;
+font-weight: 700;
+font-size: 16px;
+color: black;
+}
+
+#quote img{
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#con-list li{
+  display: inline;
+  text-align: left;
+  list-style-type: none;
+}
+
+#con-img{
+  width: 100%;
+}
 
 
-
-
-
-
-
+/*Tiny house*/
 
 .tiny-article{
   background-color: rgb(233, 232, 232);

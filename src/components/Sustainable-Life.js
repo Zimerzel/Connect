@@ -48,7 +48,7 @@ const Life = () =>{
                     <Row>
                         <Col>
                             <Card style={{ width: '20vw'}} id="life-cards">
-                            <Link to="/tiny" id="life-link">
+                            <Link to="/sustainable-life/consumption" id="life-link">
                                 <Button id="life-btn">
                                 <Card.Img variant="top" src="https://www.activesustainability.com/media/655423/beneficios-consumo-local.jpg" />
                                 <Card.Body>
