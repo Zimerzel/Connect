@@ -6,26 +6,67 @@ import { Col, Row, Container } from "react-bootstrap"
 function Community() {
     return(
         <>
-            <h2>Our Community</h2>
-            <br></br>
-            <h3>Volunteers</h3>
-            <br></br>
-            <p><LoremIpsum p={1} /></p>
+        <div className="community">
+            <h1> Our Community </h1>
             <br></br>
             <h3>Staff</h3>
             <br></br>
             <Container id="staff" >
-                <Row>
-                    <Col xs={1}>
-                        {/* "man who cant dance" */}
-                        <img src ="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-229980-r1256_fob_collins_b-c6e91f05-4c99-4561-9615-e2ce4a3625ee.jpg" alt="phil collins"/>
-                    </Col>
-                    <Col xs={2}>
-                        <LoremIpsum p={1} />
-                    </Col>
-                </Row>
+                <div>
+                    <Row>
+                        <Col xs={5}>
+                            {/* "man who cant dance" */}
+                            <img src ="https://www.celebritykind.com/wp-content/uploads/2018/04/IMG_1968-1024x1024.jpg" alt="Paul Walker ROWW" id="staff-Paul"/>
+                        </Col>
+                        <Col xs={7}>
+                            <h2>Paul Walker</h2>
+                            <LoremIpsum p={1} />
+                        </Col>
+                    </Row>
+                </div>
+                <div>
+                    <Row>
+                        <Col xs={5}>
+                            {/* "man who cant dance" */}
+                            <img src ="https://educateinspirechange.org/wp-content/uploads/2018/12/images-7-2.jpeg" alt="phil collins" id="staff-Leo"/>
+                        </Col>
+                        <Col xs={7}>
+                            <h2> Leonardo DiCaprio</h2>
+                            <LoremIpsum p={1} />
+                        </Col>
+                    </Row>
+                </div>
+                <div>
+                    <Row>
+                        <Col xs={5}>
+                            {/* "man who cant dance" */}
+                            <img src ="https://bckonline.com/wp-content/uploads/2018/10/Smith.jpg" alt="Will and Jaden Smith" id="staff-Smiths"/>
+                        </Col>
+                        <Col xs={7}>
+                            <h2>Will Smith, Jaden Smith</h2>
+                            <LoremIpsum p={1} />
+                        </Col>
+                    </Row>
+                </div>
             </Container>
-            
+            <div className="community-contact">
+                <h2>Contact</h2>
+                <br></br>
+                <h3>Best way to reach out</h3>
+                    <LoremIpsum p={1} />
+                <br></br>
+                <h3>How can I help Connect?</h3>
+                    <LoremIpsum p={1} />
+                <br></br>
+                <h3>Looking for a job?</h3>
+                    <LoremIpsum p={1} />
+                <br></br>
+            </div>
+            <h2>Volunteer</h2>
+            <br></br>
+            <p><LoremIpsum p={1} /></p>
+            <br></br>
+        </div>
         </>
     )
 }

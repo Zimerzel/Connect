@@ -287,25 +287,46 @@ color: black;
   width: 85%;
 }
 
+
+
+/* Community Tab*/
+
+.community{
+margin-top: 10vh;
+}
+
+.community h1{
+  text-align: center;
+}
+
 #staff {
   align-items:center;
+}
+
+#staff div{
+  padding: 15px;
 }
 
 #staff Img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 25%;
-  border-radius: 100px;
+  object-fit: cover;
+  border-radius: 80%;
+  height: 320px;
+  width: 300px;
 }
+
+.community-contact{
+  border-bottom: black solid 2px;
+  margin: 10px
+}
+
+/* Nav Dropdown */
 
 #nav-sm{
   display:none;
 }
-
-
-
-
 
 @media (max-width: 960px){
 #menu-sm {
