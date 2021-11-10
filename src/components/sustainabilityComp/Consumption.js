@@ -43,23 +43,25 @@ const Consumption = () =>{
                     goods and services. In this way, according to the magazine Ethical Consumer, 
                     the profile of the responsible consumer is determined by five factors. He or she helps by:
                     </p>
-                    <ul id="con-list">
-                        <li>
-                            <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Reducing consumption</p>
-                        </li>
-                        <li>
-                            <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Being more active</p>
-                        </li>
-                        <li>
-                            <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Consuming local products and contracting local services, as well as secondhand products</p>
-                        </li>
-                        <li>
-                            <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Keeping and investing their money in an ethical bank</p>
-                        </li>
-                        <li>
-                            <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Reusing, repairing and recycling.</p>
-                        </li>  
-                    </ul>
+                    <div>
+                        <ul class="con-list">
+                            <li>
+                                <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Reducing consumption</p>
+                            </li>
+                            <li>
+                                <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Being more active</p>
+                            </li>
+                            <li>
+                                <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Consuming local products and contracting local services, as well as secondhand products</p>
+                            </li>
+                            <li>
+                                <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Keeping and investing their money in an ethical bank</p>
+                            </li>
+                            <li>
+                                <p><FontAwesomeIcon icon={faEnvira} id="envira"/>   Reusing, repairing and recycling.</p>
+                            </li>  
+                        </ul>
+                    </div>
                     <p>
                     One of the factors that notably influences this kind of <strong>responsible consumption</strong> is proximity, 
                     also called <strong>local consumption</strong>. It is often heard that local consumption has <strong>environmental, 
