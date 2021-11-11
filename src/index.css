@@ -140,13 +140,13 @@ code {
 .Life, .Consumption{
   margin-top: 10vh;
   padding-top: 10vh;
-  background-color: rgb(233, 232, 232);
+  background-color: rgb(233, 232, 232); 
 }
 
 #life-cards{
-  margin: 10px;
+  margin: 20px;
   width: 300px;
-  height:200px
+  height:200px;
 }
 
 .card-title{
@@ -154,10 +154,10 @@ code {
 }
 
 #life-btn{
-  background-color: rgb(119, 117, 117);
+  background-color: rgb(59, 59, 59);
 }
 
-#life-btn :hover, #life-cards:hover{
+#life-btn :hover, #life-cards:hover, #life-title:hover{
   background-color: rgb(65, 63, 63);
 }
 
@@ -172,6 +172,10 @@ code {
   height: 50px;
   font-size: 16px;
   padding:5px;
+}
+
+#life-img{
+  width: 300px !important;
 }
 
 .stay-home{
